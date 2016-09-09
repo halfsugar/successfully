@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="set_item_titlesize">16.0sp</dimen>
+    <dimen name="set_item_textsize">12.0sp</dimen>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="softmgr_piechar_width">120dp</dimen>
+    <dimen name="softmgr_piechar_height">120dp</dimen>
+    <dimen name="softmgr_piechar_icon_width">10dp</dimen>
+    <dimen name="softmgr_piechar_icon_height">10dp</dimen>
+
+    <!-- homeclear_arc -->
+    <dimen name="home_cleararc_width_img">210dp</dimen>
+    <dimen name="home_cleararc_height_img">210dp</dimen>
+    ...................
+    <dimen name="home_cleararc_text_bottom">40dp</dimen>
+    <dimen name="home_cleararc_text_textsize">16sp</dimen>
+    <dimen name="home_cleararc_score_top">48dp</dimen>
+    <dimen name="home_cleararc_score_textsize">64sp</dimen>
+    <dimen name="app_listitem_textsize_small">64sp</dimen>
+
+
+    <dimen name="home_cleararc_width">216dp</dimen>
+    <dimen name="home_cleararc_height">216dp</dimen>
+
+    <!-- 手机检测 -->
+    <dimen name="phonemgr_height">160dp</dimen>
+    <dimen name="phonemgr_battery_height">100dp</dimen>
+
+</resources>

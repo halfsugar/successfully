@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.shoujiguanjia">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:theme="@style/hide" />
+        <activity android:name=".ui.MainActivity" />
+        <activity
+            android:name=".ui.ShowTelNumTypeActivity"
+            android:label="通讯大全"
+            android:theme="@style/hide" />
+        <activity android:name=".ui.ShowTelNumActivity" />
+        <activity
+            android:name=".ui.IntroduceActivity"
+            android:theme="@style/hide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ui.MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.SettingActivity"
+            android:label="设置" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:label="关于我们" />
+        <activity
+            android:name=".ui.SoftManagerActivity"
+            android:label="软件管家" />
+        <activity
+            android:name=".ui.ShowSoftActivity"
+            android:label="软件管家" />
+        <activity
+            android:name=".ui.Clean_Process_Activity"
+            android:label="手机加速" />
+        <activity
+            android:name=".ui.PhonemgrActivity"
+            android:label="手机检测页面" />
+        <activity
+            android:name=".ui.FileMgrActivity"
+            android:label="文件管理" />
+        <activity android:name=".ui.FileMgrSecondaryActivity"/>
+    </application>
+
+</manifest>

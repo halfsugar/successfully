@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_phonemgr_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/filemgr_secondaray_listitem_iv"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            style="@style/TextAppearance.AppCompat"
+            android:id="@+id/tv_phonemgr_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应用名"/>
+        <TextView
+            style="@style/TextAppearance.AppCompat"
+            android:id="@+id/tv_phonemgr_text"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="包名"/>
+    </LinearLayout>
+</LinearLayout>

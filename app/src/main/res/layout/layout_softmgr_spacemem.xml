@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <include layout="@layout/tools"/>
+    <!-- 手机空间显示图布局 -->
+    <include layout="@layout/rjgl"/>
+    <!-- 手机空间进度 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="@dimen/app_listitem_horizontal_margin"
+        android:paddingLeft="@dimen/app_listitem_horizontal_margin"
+        android:paddingRight="@dimen/app_listitem_horizontal_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/space_phone" />
+        <ProgressBar
+            android:id="@+id/pb_phone_space"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="14dp"
+            android:max="100"
+            android:progress="40" />
+        <TextView
+            android:id="@+id/tv_phone_space_msg"
+            android:layout_width="fill_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="100MB/1000MB" />
+    </LinearLayout>
+    <!-- SD空间进度 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/app_listitem_horizontal_margin"
+        android:paddingLeft="@dimen/app_listitem_horizontal_margin"
+        android:paddingRight="@dimen/app_listitem_horizontal_margin" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/space_sdcard" />
+        <ProgressBar
+            android:id="@+id/pb_sdcard_space"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="14dp"
+            android:max="100"
+            android:progress="70" />
+        <TextView
+            android:id="@+id/tv_sdcard_space_msg"
+            android:layout_width="fill_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="100MB/1000MB" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/all_soft"
+        android:drawableRight="@mipmap/ic_arrows_right"
+        android:text="所有程序"
+        android:textSize="16dp"
+        android:drawablePadding="8dp"
+        android:gravity="center|left"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/system_soft"
+        android:drawableRight="@mipmap/ic_arrows_right"
+        android:text="系统软件"
+        android:textSize="16dp"
+        android:drawablePadding="8dp"
+        android:gravity="center|left"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_soft"
+        android:drawableRight="@mipmap/ic_arrows_right"
+        android:text="用户软件"
+        android:textSize="16dp"
+        android:drawablePadding="8dp"
+        android:gravity="center|left"
+        android:padding="16dp"/>
+
+    </LinearLayout>

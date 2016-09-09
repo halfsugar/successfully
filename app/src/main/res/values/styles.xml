@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+     <style name="hide" parent="Theme.AppCompat.NoActionBar"/>
+
+    <!-- 设置页面每个 item -->
+    <style name="setting_item">
+        <item name="android:contentDescription">设置页面每个item的Style</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="app_listitem_righticon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+
+        <item
+            name="android:layout_marginRight">@dimen/app_listitem_horizontal_margin
+        </item>
+    </style>
+
+    <!-- 软件各页面中列表项风格(软件管理? 文件管理?) -->
+    <style name="app_listitem">
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:layout_height">@dimen/app_listitem_height</item>-->
+        <item name="android:background">@drawable/home_entry_item</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">hitListitem</item>
+
+        <!-- 软件各页面中列表项风格(软件管理? 文件管理?) -->
+
+
+
+
+    </style>
+
+    <!-- 饼形图 -->
+    <style name="soft_piechar">
+        <item
+            name="android:layout_width">@dimen/softmgr_piechar_width</item>
+        <item
+            name="android:layout_height">@dimen/softmgr_piechar_height</item>
+    </style>
+    <!-- 饼形图 icon -->
+    <style name="soft_piechar_icon">
+        <item
+            name="android:layout_width">@dimen/softmgr_piechar_icon_width</item>
+        <item
+            name="android:layout_height">@dimen/softmgr_piechar_icon_width</item
+            >
+    </style>
+
+    <style name="FilemgrItem">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">50dp</item>
+    <item name="android:clickable">true</item>
+    <item name="android:onClick">doClick</item>
+    <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="FilemgrItemLeft">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:textSize">14dp</item>
+    <item name="android:layout_centerVertical">true</item>
+
+    </style>
+    <style name="FilemgrItemMiddle">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">12dp</item>
+    <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="FilemgrItemImg">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:src">@mipmap/ic_arrows_right</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_centerVertical">true</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="FilemgrItempb"  >
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_alignParentRight">true</item>
+    <item name="android:layout_centerVertical">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <!-- 透明的水平线条(分隔符) -->
+    <style name="line_v_transparent">
+        <item name="android:background">#00ffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+</resources>

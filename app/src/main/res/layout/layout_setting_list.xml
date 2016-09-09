@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_autostart"
+        style="@style/setting_item" >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kjqd"
+            android:text="开机启动"
+            android:layout_weight="1.0"
+            android:textSize="18dp"
+            android:gravity="center|left"
+            android:padding="16dp"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:background="@drawable/home_entry_item"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_setting_notify"
+        style="@style/setting_item" >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="通知图标"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tb_toggle_notification"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/home_entry_item" />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_setting_push"
+        style="@style/setting_item" >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/xxts"
+    android:text="消息推送"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:background="@drawable/home_entry_item"
+            />
+</RelativeLayout>
+
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bzsm"
+    android:text="帮助说明"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bzsm_text"
+    android:layout_alignParentRight="true"
+    android:drawableRight="@mipmap/ic_arrows_right"
+    android:padding="16dp"/>
+</RelativeLayout>
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/yjfk"
+    android:text="意见反馈"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/yjfk_text"
+    android:layout_alignParentRight="true"
+    android:drawableRight="@mipmap/ic_arrows_right"
+    android:padding="16dp"/>
+</RelativeLayout>
+
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/hyfx"
+    android:text="好友分享"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/hyfx_text"
+    android:layout_alignParentRight="true"
+    android:drawableRight="@mipmap/ic_arrows_right"
+    android:padding="16dp"/>
+</RelativeLayout>
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bbgx"
+    android:text="版本更新"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bbgx_text"
+    android:layout_alignParentRight="true"
+    android:drawableRight="@mipmap/ic_arrows_right"
+    android:padding="16dp"/>
+</RelativeLayout>
+    <RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+        android:id="@+id/gywm"
+    android:layout_height="60dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="关于我们"
+    android:layout_weight="1.0"
+    android:textSize="18dp"
+    android:gravity="center|left"
+    android:padding="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:drawableRight="@mipmap/ic_arrows_right"
+    android:padding="16dp"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
